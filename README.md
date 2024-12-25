@@ -14,8 +14,7 @@ An **AI-powered CVE Insights Platform** combining LLMs with modern DevOps:
 - Built CI/CD pipelines with **Jenkins DSL** and **Terraform**, deploying on **Amazon EKS** with **Kafka streaming** for real-time data processing.  
 - Enhanced traffic management and security with **Istio**, **Kiali**, and **mTLS**, reducing troubleshooting time by 30%.  
 - Centralized monitoring using the **EFK stack**, **Prometheus**, and **Grafana**, achieving 99.9% alert accuracy and reducing mean time to detection by 40%.
-### Project Demo
-
+### ⚙ Project Demo
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
 
 ### **[skynetx.me](https://github.com/vk-NEU7/skynetx)**  
