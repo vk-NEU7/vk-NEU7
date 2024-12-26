@@ -8,39 +8,35 @@ I'm a **Software Engineer** and **MLOps Enthusiast** pursuing a **Master’s in 
 ---
 
 ## 🛠️ Key Projects  
-### **[LLaMaCVE](https://github.com/cyse7125-su24-team10)**  
-An **AI-powered CVE(Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
 
-- **RAG Chatbot**: Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b**, **LangChain**, and **Python** to process **250K CVE records**. The model generates actionable insights, helping users stay informed on vulnerabilities and emerging threats.
+### **[LLaMaCVE](https://github.com/cyse7125-su24-team10)**  
+An **AI-powered CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
+
+- **RAG Chatbot**: Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b**, **LangChain**, and **Python** to process **250K CVE JSON records**. Integrated the **Pinecone vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
 
 - **Data Processing & Storage**: Built **3 microservices** in **Go** for **CVE data normalization** and **Kafka publishing**. Ensured seamless data management with **Flyway migrations** for **PostgreSQL**, maintaining schema integrity and automating updates.
 
-- **Kubernetes Cluster**: Deployed a **highly available Kubernetes cluster** on **AWS** with **multi-AZ deployment**. Integrated **Istio** for secure service-to-service communication, **Kafka** for real-time messaging, and **KMS** for encryption, ensuring high availability and scalability for **CVE processing** and the RAG model.
+- **Kubernetes Cluster**: Deployed a **highly available Kubernetes cluster** on **AWS** with **multi-AZ deployment**. Integrated **Istio** for secure service-to-service communication, **Kafka** for real-time messaging, and **KMS** for encryption, ensuring high availability and scalability for **CVE processing** and the RAG model. Managed infrastructure with **Helm charts** and auto-scaling for **CVE processing applications**, ensuring optimal performance under varying workloads.
 
 - **CI/CD Pipelines**: Automated deployment pipelines using **Jenkins DSL** and **Terraform** for seamless deployment of the model on **Amazon EKS**. Real-time data processing is handled via **Kafka streaming**, ensuring timely and accurate insights.
 
-- **Service Mesh & Security**: Deployed **Istio service mesh** with **Ingress**, **VirtualService**, and **mTLS** for secure, reliable communication between microservices. Integrated **Kiali** and **Jaeger** for traffic management, tracing, and visualization, reducing troubleshooting time by **30%** and improving operational efficiency.
+- **Service Mesh & Security**: Deployed an **Istio service mesh** with **Ingress**, **VirtualService**, and **mTLS** for secure, reliable communication between microservices. Integrated **Kiali** and **Jaeger** for traffic management, tracing, and visualization, reducing troubleshooting time by **30%** and improving operational efficiency.
 
 - **Centralized Monitoring**: Implemented centralized monitoring with the **EFK stack** and **Prometheus/Grafana** for logging, metrics collection, and visualization. Achieved **99.9% alert accuracy**, reducing **mean time to detection (MTTD)** by **40%**.
 
-- **Pinecone Integration**: Integrated **Pinecone vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
+- **Kubernetes Operator**: Designed a custom CRD-based **Kubebuilder operator** to monitor and process hourly CVE releases, automatically fetching new CVE records and integrating them with **Kafka** and **Pinecone** for indexing and real-time processing.
 
-- **Kubernetes Operator**: Designed a custom **Kubebuilder-based operator** to monitor and process hourly CVE releases, automatically fetching new CVE records and integrating them with **Kafka** and **Pinecone** for indexing and real-time processing.
-
-- **Scalable Infrastructure**: Managed infrastructure with **Helm charts** and auto-scaling for **CVE processing applications**, ensuring optimal performance under varying workloads.
-
-- **Automated Deployments**: Automated **AWS AMI** image building using **HashiCorp Packer** with pre-configured **Jenkins** and **NGINX**. Streamlined deployments using **Terraform** and **GitHub webhooks** for continuous integration.
+- **Automated Deployments**: Automated **AWS AMI** image building using **HashiCorp Packer** with pre-configured **Jenkins** and **NGINX**. Streamlined deployments using **Terraform** and **GitHub webhooks** for continuous integration. Built **CI/CD pipelines** to build and push Docker images, enabling seamless containerized application deployment with zero downtime during updates.
 
 - **Security Posture Enhancement**: Improved security by automating **SSL/TLS certificate management** with **cert-manager** and **secret management** using **SOPS**, ensuring zero downtime during key rotations and improving security by **35%**.
-
-- **Containerized Deployment**: Built **CI/CD pipelines** to build and push Docker images, enabling seamless containerized application deployment with zero downtime during updates.
 
 - **LLM Deployment**: The **Llama-3.1-8b** model is deployed using the **Ollama service** on an **AWS GPU instance g5.xlarge**, ensuring efficient and scalable real-time CVE data processing and inference.
 
 #### ⚙ Project Demo  
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
 
-### **[skynetx.me](https://github.com/vk-NEU7/skynetx)**  
+
+### **[skynetx.me](https://github.com/cloudapp6225)**  
 A cloud-native application focused on performance and scalability:  
 - Built a robust **RESTful API Server** following **Twelve-Factor App** principles, implemented **CI/CD** with **GitHub Actions** on **Google Cloud**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
 - Developed an **event-driven system** with **Pub/Sub** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
@@ -51,7 +47,7 @@ A cloud-native application focused on performance and scalability:
 ## 💼 Work Experience  
 
 ### **Graduate Teaching Assistant: Advanced Cloud Computing**  
-*Northeastern University, Boston, MA | Jan 2024 – Dec 2024*  
+*Northeastern University, Boston, MA | Jan 2025 – May 2025*  
 - .  
 
 ### **Software Engineering Analyst**  
@@ -96,7 +92,6 @@ A cloud-native application focused on performance and scalability:
 ![Cert-Manager](https://img.shields.io/badge/Cert%20Manager-00A99D?logo=cert-manager&logoColor=white)
 ![Kiali](https://img.shields.io/badge/Kiali-5F8D61?logo=kiali&logoColor=white)
 ![Jaeger](https://img.shields.io/badge/Jaeger-00B4B6?logo=jaeger&logoColor=white)
-![SOPS](https://img.shields.io/badge/SOPS-2F2F2F?logo=sops&logoColor=white)
 
 
 
@@ -104,7 +99,8 @@ A cloud-native application focused on performance and scalability:
 
 ## 🏆 Certifications  
 - **[Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/b88a39e3-bc9a-43a1-a597-19bb700b3a50/public_url)**  
-- **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/a0773eaf-4d97-48d8-960c-48a0cb43abd0/public_url)**  
+- **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/a0773eaf-4d97-48d8-960c-48a0cb43abd0/public_url)**
+- **[Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/c0044ba4-af2c-4bd9-ad60-ac8705fd1c4f/public_url)**   
 
 ---
 ## 🥷 GitHub Stats
