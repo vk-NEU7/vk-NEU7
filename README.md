@@ -2,7 +2,7 @@
 
 # Hi, I'm Vinay Kumar Chelpuri 👋
 
-## About Me  
+## ⚡ About Me  
 I'm a **Software Engineer** and **DevOps Enthusiast** pursuing a **Master’s in Information Systems** at Northeastern University. With over 3 years of professional experience, I've worked extensively on **Java Spring Boot microservices**, **AWS cloud automation**, and **Kubernetes orchestration**. I enjoy building scalable, secure applications and integrating DevOps practices to optimize workflows and enhance system performance.
 
 ---
