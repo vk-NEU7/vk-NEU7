@@ -3,33 +3,56 @@
 # Hi, I'm Vinay Kumar Chelpuri 👋
 
 ## ⚡ About Me  
-I'm a **Software Engineer** and **DevOps Enthusiast** pursuing a **Master’s in Information Systems** at Northeastern University. With over 3 years of professional experience, I've worked extensively on **Java Spring Boot microservices**, **AWS cloud automation**, and **Kubernetes orchestration**. I enjoy building scalable, secure applications and integrating DevOps practices to optimize workflows and enhance system performance.
+I'm a **Software Engineer** and **MLOps Enthusiast** pursuing a **Master’s in Information Systems** at Northeastern University. With over 3 years of professional experience, I've worked extensively on **Java Spring Boot microservices**, **AWS cloud automation**, and **Kubernetes orchestration**. I enjoy building scalable, secure applications and integrating DevOps practices to optimize workflows and enhance system performance.
 
 ---
 
 ## 🛠️ Key Projects  
-### **[LLaMaCVE](https://github.com/vk-NEU7/llamacve)**  
-An **AI-powered CVE Insights Platform** combining LLMs with modern DevOps:  
-- Developed a **RAG Chatbot** using **Llama-3.1-8b**, **LangChain**, and **Python**, processing 250K+ CVE records to provide actionable security insights.  
-- Built CI/CD pipelines with **Jenkins DSL** and **Terraform**, deploying on **Amazon EKS** with **Kafka streaming** for real-time data processing.  
-- Enhanced traffic management and security with **Istio**, **Kiali**, and **mTLS**, reducing troubleshooting time by 30%.  
-- Centralized monitoring using the **EFK stack**, **Prometheus**, and **Grafana**, achieving 99.9% alert accuracy and reducing mean time to detection by 40%.
-### ⚙ Project Demo
+### **[LLaMaCVE](https://github.com/cyse7125-su24-team10)**  
+An **AI-powered CVE(Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
+
+- **RAG Chatbot**: Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b**, **LangChain**, and **Python** to process **250K CVE records**. The model generates actionable insights, helping users stay informed on vulnerabilities and emerging threats.
+
+- **Data Processing & Storage**: Built **3 microservices** in **Go** for **CVE data normalization** and **Kafka publishing**. Ensured seamless data management with **Flyway migrations** for **PostgreSQL**, maintaining schema integrity and automating updates.
+
+- **Kubernetes Cluster**: Deployed a **highly available Kubernetes cluster** on **AWS** with **multi-AZ deployment**. Integrated **Istio** for secure service-to-service communication, **Kafka** for real-time messaging, and **KMS** for encryption, ensuring high availability and scalability for **CVE processing** and the RAG model.
+
+- **CI/CD Pipelines**: Automated deployment pipelines using **Jenkins DSL** and **Terraform** for seamless deployment of the model on **Amazon EKS**. Real-time data processing is handled via **Kafka streaming**, ensuring timely and accurate insights.
+
+- **Service Mesh & Security**: Deployed **Istio service mesh** with **Ingress**, **VirtualService**, and **mTLS** for secure, reliable communication between microservices. Integrated **Kiali** and **Jaeger** for traffic management, tracing, and visualization, reducing troubleshooting time by **30%** and improving operational efficiency.
+
+- **Centralized Monitoring**: Implemented centralized monitoring with the **EFK stack** and **Prometheus/Grafana** for logging, metrics collection, and visualization. Achieved **99.9% alert accuracy**, reducing **mean time to detection (MTTD)** by **40%**.
+
+- **Pinecone Integration**: Integrated **Pinecone vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
+
+- **Kubernetes Operator**: Designed a custom **Kubebuilder-based operator** to monitor and process hourly CVE releases, automatically fetching new CVE records and integrating them with **Kafka** and **Pinecone** for indexing and real-time processing.
+
+- **Scalable Infrastructure**: Managed infrastructure with **Helm charts** and auto-scaling for **CVE processing applications**, ensuring optimal performance under varying workloads.
+
+- **Automated Deployments**: Automated **AWS AMI** image building using **HashiCorp Packer** with pre-configured **Jenkins** and **NGINX**. Streamlined deployments using **Terraform** and **GitHub webhooks** for continuous integration.
+
+- **Security Posture Enhancement**: Improved security by automating **SSL/TLS certificate management** with **cert-manager** and **secret management** using **SOPS**, ensuring zero downtime during key rotations and improving security by **35%**.
+
+- **Containerized Deployment**: Built **CI/CD pipelines** to build and push Docker images, enabling seamless containerized application deployment with zero downtime during updates.
+
+- **LLM Deployment**: The **Llama-3.1-8b** model is deployed using the **Ollama service** on an **AWS GPU instance g5.xlarge**, ensuring efficient and scalable real-time CVE data processing and inference.
+
+#### ⚙ Project Demo  
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
 
 ### **[skynetx.me](https://github.com/vk-NEU7/skynetx)**  
 A cloud-native application focused on performance and scalability:  
-- Designed a **RESTful API Server** with **Spring Boot**, deployed on **Google Cloud** with **GitHub Actions** CI/CD.  
-- Implemented event-driven architecture using **Pub/Sub** and **Cloud Run**, scaling seamlessly to handle 10x traffic spikes.  
-- Secured sensitive data with **CMEK encryption** and enforced **POLP**-compliant IAM roles for robust security.  
+- Built a robust **RESTful API Server** following **Twelve-Factor App** principles, implemented **CI/CD** with **GitHub Actions** on **Google Cloud**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
+- Developed an **event-driven system** with **Pub/Sub** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
+- Secured sensitive data with **CMEK encryption** for **Secrets**, **VM disks**, and **Cloud SQL**, and enforced **IAM roles** adhering to **Principle of Least Privilege (POLP)**, strengthening overall security.  
 
 ---
 
 ## 💼 Work Experience  
 
-### **Graduate Teaching Assistant**  
+### **Graduate Teaching Assistant: Advanced Cloud Computing**  
 *Northeastern University, Boston, MA | Jan 2024 – Dec 2024*  
-- Automated assignment workflows using **GitHub Actions**, enhancing efficiency for instructors and students.  
+- .  
 
 ### **Software Engineering Analyst**  
 *Accenture, Hyderabad, India | Sept 2021 – Aug 2023*  
@@ -67,13 +90,21 @@ A cloud-native application focused on performance and scalability:
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-3b82f6?logo=openTelemetry&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apache-kafka&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-00B1B0?logo=pinecone&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)
+![Cert-Manager](https://img.shields.io/badge/Cert%20Manager-00A99D?logo=cert-manager&logoColor=white)
+![Kiali](https://img.shields.io/badge/Kiali-5F8D61?logo=kiali&logoColor=white)
+![Jaeger](https://img.shields.io/badge/Jaeger-00B4B6?logo=jaeger&logoColor=white)
+![SOPS](https://img.shields.io/badge/SOPS-2F2F2F?logo=sops&logoColor=white)
+
 
 
 ---
 
 ## 🏆 Certifications  
-- **[Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/f9dbfb32-638e-4e76-920f-76bab53b0bd5)**  
-- **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/dc7191b3-c081-4328-8c9b-d33d5dd0885a/public_url)**  
+- **[Certified Kubernetes Administrator (CKA)](https://www.credly.com/badges/b88a39e3-bc9a-43a1-a597-19bb700b3a50/public_url)**  
+- **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/a0773eaf-4d97-48d8-960c-48a0cb43abd0/public_url)**  
 
 ---
 ## 🥷 GitHub Stats
