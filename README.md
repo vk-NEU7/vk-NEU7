@@ -44,31 +44,30 @@ A cloud-native application focused on performance and scalability:
 
 ---
 
-## 🔧 Skills & Technologies  
+## 🔧 Skills & Technologies
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=spring-boot&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-FF5733?logo=chainlink&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?logo=google-cloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Packer](https://img.shields.io/badge/packer-%23E7EEF0.svg?logo=packer&logoColor=%2302A8EF)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?logo=istio&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-3b82f6?logo=openTelemetry&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 
-**Languages**  
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)  
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)  
-
-**Frameworks**  
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=spring-boot&logoColor=white)  
-![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)  
-
-**Cloud & DevOps**  
-![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?logo=amazon-aws&logoColor=white)  
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)  
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white)  
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white)  
-
-**Tools & Monitoring**  
-![Istio](https://img.shields.io/badge/Istio-466BB0?logo=istio&logoColor=white)  
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)  
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-3b82f6?logo=openTelemetry&logoColor=white)  
-
-**Databases**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)  
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)  
 
 ---
 
@@ -78,14 +77,11 @@ A cloud-native application focused on performance and scalability:
 
 ---
 
-## Github Stats
-[![GitHub Streak](https://streak-stats.demolab.com/?user=vk-NEU7)](https://git.io/streak-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vk-NEU7&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
+---
 
 ## 📫 Connect with Me  
-- [LinkedIn](https://linkedin.com/in/vinaychelpuri)  
-- [GitHub](https://github.com/vk-NEU7)  
+- [LinkedIn](https://linkedin.com/in/vinaychelpuri) 
 - [Email](mailto:chelpuri.v@northeastern.edu)  
 
 ---
