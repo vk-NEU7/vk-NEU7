@@ -76,7 +76,13 @@ A cloud-native application focused on performance and scalability:
 - **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/dc7191b3-c081-4328-8c9b-d33d5dd0885a/public_url)**  
 
 ---
+## 🥷 GitHub Stats
 
+[![GitHub Streak](https://streak-stats.demolab.com/?user=vk-NEU7)](https://git.io/streak-stats)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vk-NEU7&size_weight=0.5&count_weight=0.5)
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=vk-NEU7&show_icons=true&theme=radical)
 
 ---
 
