@@ -7,7 +7,7 @@ I'm a **Software Engineer** and **MLOps Enthusiast** pursuing a **Master’s in 
 
 ---
 
-## 🛠️ Key Projects  
+## 🚀 Key Projects
 
 ### **[LLaMaCVE](https://github.com/cyse7125-su24-team10)**  
 An **AI-powered CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
