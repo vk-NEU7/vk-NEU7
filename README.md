@@ -12,21 +12,19 @@ I'm a **Software Engineer** and **MLOps Enthusiast** pursuing a **Master’s in 
 ### **[LLaMaCVE](https://github.com/cyse7125-su24-team10)**  
 An **AI-powered CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
 
-- **RAG Chatbot**: Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b**, **LangChain**, and **Python** to process **250K CVE JSON records**. Integrated the **Pinecone vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
+- **RAG Chatbot**: Designed and Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b**, **LangChain**, and **Python** to process **250K CVE JSON records**. Integrated the **Pinecone vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
 
-- **Data Processing & Storage**: Built **3 microservices** in **Go** for **CVE data normalization** and **Kafka publishing**. Ensured seamless data management with **Flyway migrations** for **PostgreSQL**, maintaining schema integrity and automating updates.
+- **Data Processing & Storage**: Built **3 microservices** in **Go** for **CVE data normalization** and **Kafka** for asynchronous message processing. Ensured seamless data management with **Flyway migrations** for **PostgreSQL**, maintaining schema integrity and automating updates.
 
 - **Kubernetes Cluster**: Deployed a **highly available Kubernetes cluster** on **AWS** with **multi-AZ deployment**. Integrated **Istio** for secure service-to-service communication, **Kafka** for real-time messaging, and **KMS** for encryption, ensuring high availability and scalability for **CVE processing** and the RAG model. Managed infrastructure with **Helm charts** and auto-scaling for **CVE processing applications**, ensuring optimal performance under varying workloads.
 
-- **CI/CD Pipelines**: Automated deployment pipelines using **Jenkins DSL** and **Terraform** for seamless deployment of the model on **Amazon EKS**. Real-time data processing is handled via **Kafka streaming**, ensuring timely and accurate insights.
+- **CI/CD Pipelines**: Streamlined application deployments by automating **AWS AMI** image creation using **HashiCorp Packer** with pre-configured **Jenkins** and **NGINX**. Designed robust **CI/CD pipelines** using **Jenkins DSL** and **Terraform**, enabling seamless deployment of applications on **Amazon EKS**. Integrated **GitHub Webhooks** for continuous integration, automating Docker image builds and pushes with zero downtime during updates. Adopted **Semantic Versioning 2.0.0** and enforced **Conventional Commits** for automated GitHub Releases, ensuring consistency across deployments. Extended this approach to container image versioning, enabling reliable traceability and rollbacks.
 
 - **Service Mesh & Security**: Deployed an **Istio service mesh** with **Ingress**, **VirtualService**, and **mTLS** for secure, reliable communication between microservices. Integrated **Kiali** and **Jaeger** for traffic management, tracing, and visualization, reducing troubleshooting time by **30%** and improving operational efficiency.
 
 - **Centralized Monitoring**: Implemented centralized monitoring with the **EFK stack** and **Prometheus/Grafana** for logging, metrics collection, and visualization. Achieved **99.9% alert accuracy**, reducing **mean time to detection (MTTD)** by **40%**.
 
-- **Kubernetes Operator**: Designed a custom CRD-based **Kubebuilder operator** to monitor and process hourly CVE releases, automatically fetching new CVE records and integrating them with **Kafka** and **Pinecone** for indexing and real-time processing.
-
-- **Automated Deployments**: Automated **AWS AMI** image building using **HashiCorp Packer** with pre-configured **Jenkins** and **NGINX**. Streamlined deployments using **Terraform** and **GitHub webhooks** for continuous integration. Built **CI/CD pipelines** to build and push Docker images, enabling seamless containerized application deployment with zero downtime during updates.
+- **Kubernetes Operator**: Designed a custom CRD with **Kubebuilder** to monitor and process hourly CVE releases, automatically fetching new CVE records and integrating them with **Kafka** and **Pinecone** for indexing and real-time processing.
 
 - **Security Posture Enhancement**: Improved security by automating **SSL/TLS certificate management** with **cert-manager** and **secret management** using **SOPS**, ensuring zero downtime during key rotations and improving security by **35%**.
 
