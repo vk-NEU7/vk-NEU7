@@ -38,7 +38,7 @@ An **AI-powered CVE (Cybersecurity Vulnerabilities) Insights Platform** combinin
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
 
 
-### **[skynetx.me](https://github.com/cloudapp6225)**  
+### **[Skynetx](https://github.com/cloudapp6225)**  
 A cloud-native application focused on performance and scalability:  
 - Built a robust **RESTful API Server** following **Twelve-Factor App** principles, implemented **CI/CD** with **GitHub Actions** on **Google Cloud**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
 - Developed an **event-driven system** with **Pub/Sub** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
