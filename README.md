@@ -32,7 +32,7 @@ An **AI-powered CVE (Cybersecurity Vulnerabilities) Insights Platform** combinin
 
 - **Security Posture Enhancement**: Improved security by automating **SSL/TLS certificate management** with **cert-manager** and **secret management** using **SOPS**, ensuring zero downtime during key rotations and improving security by **35%**.
 
-- **LLM Deployment**: The **Llama-3.1-8b** model is deployed using the **Ollama service** on an **AWS GPU instance g5.xlarge**, ensuring efficient and scalable real-time CVE data processing and inference.
+- **LLM Deployment**: The **Llama-3.1-8b** model is deployed using the **Ollama service** on an **AWS GPU instance g5.xlarge**, ensuring efficient and scalable LLM deployment and inference.
 
 #### ⚙ Project Demo  
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
