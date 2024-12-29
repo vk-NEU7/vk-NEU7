@@ -3,7 +3,11 @@
 # Hi, I'm Vinay Kumar Chelpuri 👋
 
 ## ⚡ About Me  
-I'm a **Software Engineer** and **MLOps Enthusiast** pursuing a **Master’s in Information Systems** at Northeastern University. With over 3 years of professional experience, I've worked extensively on **Java Spring Boot microservices**, **AWS cloud automation**, and **Kubernetes orchestration**. I enjoy building scalable, secure applications and integrating DevOps practices to optimize workflows and enhance system performance.
+
+I am a **Software Engineer** and **MLOps Enthusiast** pursuing a **Master’s in Information Systems** at Northeastern University. With over 3 years of professional experience, I specialize in building **Java applications**, architecting multi-cloud solutions with **AWS & GCP**, and leveraging **Kubernetes orchestration** for scalable deployments. My expertise includes developing, testing, and deploying object-oriented and web-based applications using **Java/J2EE technologies**, with a strong foundation in **Servlets, JSP, JDBC, multi-threading, MVC**, and design patterns. I have experience with frameworks such as **Spring MVC, Spring Boot**, and **Hibernate**, and in developing dynamic web applications using **Angular** and **TypeScript**.
+
+
+I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Retrieval-Augmented Generation (RAG)** systems to tackle complex challenges. Constantly experimenting with new technologies, I actively use **Go** for innovative projects and am an active member of the **Cloud Native Computing Foundation (CNCF)**. I also spend time on platforms like **Hacker News** to stay informed about the latest tech advancements. My passion lies in building secure, efficient systems while incorporating DevOps practices to optimize workflows and enhance performance.
 
 ---
 
