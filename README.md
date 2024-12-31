@@ -39,7 +39,7 @@ A **CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with 
 
 
 ### **[Skynetx](https://github.com/cloudapp6225)**  
-A cloud-native application focused on performance and scalability:  
+A cloud-native web application focused on performance and scalability, hosted on Google Cloud Platform:  
 - Built a robust **RESTful API Server** following **Twelve-Factor App** principles, implemented **CI/CD** with **GitHub Actions** on **Google Cloud**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
 - Developed an **event-driven system** with **Pub/Sub** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
 - Secured sensitive data with **CMEK encryption** for **Secrets**, **VM disks**, and **Cloud SQL**, and enforced **IAM roles** adhering to **Principle of Least Privilege (POLP)**, strengthening overall security.  
