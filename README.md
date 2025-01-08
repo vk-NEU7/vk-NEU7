@@ -14,7 +14,7 @@ I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Re
 
 ## 🚀 Key Projects
 
-### **[LLaMaCVE](https://github.com/cyse7125-su24-team10)**  
+### **[LLaMaCVE 🤖](https://github.com/cyse7125-su24-team10)**  
 A **CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
 
 - **RAG Chatbot**: Designed and Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b(an Open Source LLM)**, **LangChain**, and **Python** to process **250K CVE JSON records**. Integrated the **Pinecone vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
@@ -39,7 +39,7 @@ A **CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with 
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
 
 
-### **[Skynetx](https://github.com/cloudapp6225)**  
+### **[🌩️ Skynex](https://github.com/cloudapp6225)**  
 A cloud-native web application focused on performance and scalability, hosted on Google Cloud Platform:  
 - Built a robust **RESTful API Server** following **Twelve-Factor App** principles, implemented **CI/CD** with **GitHub Actions** on **Google Cloud**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
 - Developed an **event-driven system** with **Pub/Sub** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
