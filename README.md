@@ -51,7 +51,9 @@ A cloud-native web application focused on performance and scalability, hosted on
 
 ### **Graduate Teaching Assistant: Advanced Cloud Computing**  
 *Northeastern University, Boston, MA | Jan 2025 – May 2025*  
-- .  
+- Mentored students on leveraging Kubernetes for container orchestration, enabling scalable, highly available system designs in a microservices architecture.
+- Guided students in implementing CI/CD pipelines with Jenkins, and GitHub Actions, automating software deployment processes.
+
 
 ### **Software Engineering Analyst**  
 *Accenture, Hyderabad, India | Sept 2021 – Aug 2023*  
