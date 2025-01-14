@@ -8,7 +8,7 @@
 
 
 
-I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Retrieval-Augmented Generation (RAG)** systems to tackle complex challenges. Constantly experimenting with new technologies, I actively use **Go** for innovative projects and an active member of the **Cloud Native Computing Foundation (CNCF)**. I also spend time on platforms like **Hacker News** to stay informed about the latest tech advancements. My passion lies in building secure, efficient systems while incorporating DevOps practices to optimize workflows and enhance performance.
+I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Retrieval-Augmented Generation (RAG)** systems to tackle complex challenges. Constantly experimenting with new technologies, I actively use **Go** for innovative projects and an active member of the **[Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)**. I also spend time on platforms like **[Hacker News](https://news.ycombinator.com/)** to stay informed about the latest tech advancements.
 
 ---
 
