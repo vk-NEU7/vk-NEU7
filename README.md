@@ -4,7 +4,7 @@
 
 ## ⚡ About Me  
 
-**Software Engineer** with 3 years of professional experience, specializing in building **Java applications**, designing multi-cloud solutions with **AWS & GCP**, and leveraging **Kubernetes orchestration** for scalable deployments. My expertise includes developing, testing, and deploying object-oriented and web-based applications using **Java/J2EE technologies**, with a strong foundation in **Servlets, JSP, JDBC, multi-threading, MVC**, and design patterns. I have experience with frameworks such as **Spring MVC, Spring Boot**, and **Hibernate**, and in creating dynamic front-end applications using **Angular** and **TypeScript**.
+**Software/DevOps Engineer** with 3 years of professional experience, specializing in building **Java applications**, designing multi-cloud solutions with **AWS & GCP**, and leveraging **Kubernetes orchestration** for scalable deployments. My expertise includes developing, testing, and deploying object-oriented and web-based applications using **Java/J2EE technologies**, with a strong foundation in **Servlets, JSP, JDBC, multi-threading, MVC**, and design patterns. I have experience with frameworks such as **Spring MVC, Spring Boot**, and **Hibernate**, and in creating dynamic front-end applications using **Angular** and **TypeScript**.
 
 
 
@@ -15,25 +15,25 @@ I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Re
 ## 🚀 Key Projects
 
 ### **[LLaMaCVE 🤖](https://github.com/cyse7125-su24-team10)**  
-A **CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
+A **[CVE (Cybersecurity Vulnerabilities)](https://cve.mitre.org/) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing**, **LLMs**, and **scalable infrastructure**.
 
-- **RAG Chatbot**: Designed and Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b(an Open Source LLM)**, **LangChain**, and **Python** to process **250K CVE JSON records**. Integrated the **Pinecone vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
+- **RAG Chatbot**: Designed and Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b(an Open Source LLM)**, **LangChain**, and **Python** to process **250K CVE JSON records**. Integrated the **[Pinecone](https://www.pinecone.io/) vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
 
-- **Data Processing & Storage**: Built **3 microservices** in **Go** for **CVE data normalization** and **Kafka** for asynchronous message processing. Ensured seamless data management with **Flyway migrations** for **PostgreSQL**, maintaining schema integrity and automating updates.
+- **Data Processing & Storage**: Built a suite of **3 microservices** in **[Go](https://go.dev/)** for **CVE data normalization** and **[Kafka](https://kafka.apache.org/)** for asynchronous message processing. Ensured seamless data management with **Flyway migrations** for **[PostgreSQL](https://www.postgresql.org/)**, maintaining schema integrity and automating updates.
 
-- **Kubernetes Cluster**: Deployed a **highly available Kubernetes cluster** on **AWS** with **multi-AZ deployment**. Integrated **Istio** for secure service-to-service communication, **Kafka** for real-time messaging, and **KMS** for encryption, ensuring high availability and scalability for **CVE processing** and the RAG model. Managed infrastructure with **Helm charts** and auto-scaling for **CVE processing applications**, ensuring optimal performance under varying workloads.
+- **Kubernetes Cluster**: Deployed a **highly available [Kubernetes](https://kubernetes.io/) cluster** on **[AWS](https://aws.amazon.com/eks/)** with **multi-AZ deployment**. Integrated **Istio** for secure service-to-service communication, **Kafka** for real-time messaging, and **KMS** for encryption, ensuring high availability and scalability for **CVE processing** and the RAG model. Managed infrastructure with **Helm charts** and auto-scaling for **CVE processing applications**, ensuring optimal performance under varying workloads.
 
-- **CI/CD Pipelines**: Streamlined application deployments by automating **AWS AMI** image creation using **HashiCorp Packer** with pre-configured **Jenkins** and **NGINX**. Designed robust **CI/CD pipelines** using **Jenkins DSL** and **Terraform**, enabling seamless deployment of applications on **Amazon EKS**. Integrated **GitHub Webhooks** for continuous integration, automating Docker image builds and pushes with zero downtime during updates. Adopted **Semantic Versioning 2.0.0** and enforced **Conventional Commits** for automated GitHub Releases, ensuring consistency across deployments. Extended this approach to container image versioning, enabling reliable traceability and rollbacks.
+- **CI/CD Pipelines**: Streamlined application deployments by automating **AWS AMI** image creation using **HashiCorp [Packer](https://www.packer.io/)** with pre-configured **[Jenkins](https://www.jenkins.io/)** and **[NGINX](https://nginx.org/)**. Designed robust **CI/CD pipelines** using **Jenkins DSL** and **[Terraform](https://www.terraform.io/)**, enabling seamless deployment of applications on **Amazon EKS**. Integrated **GitHub Webhooks** for continuous integration, automating Docker image builds and pushes with zero downtime during updates. Adopted **[Semantic Versioning 2.0.0](https://semver.org/)** and enforced **Conventional Commits** for automated GitHub Releases, ensuring consistency across deployments. Extended this approach to container image versioning, enabling reliable traceability and rollbacks.
 
-- **Service Mesh & Security**: Deployed an **Istio service mesh** with **Ingress**, **VirtualService**, and **mTLS** for secure, reliable communication between microservices. Integrated **Kiali** and **Jaeger** for traffic management, tracing, and visualization, reducing troubleshooting time by **30%** and improving operational efficiency.
+- **Service Mesh & Security**: Deployed an **[Istio](https://istio.io/) service mesh** with **Ingress**, **VirtualService**, and **mTLS** for secure, reliable communication between microservices. Integrated **Kiali** and **Jaeger** for traffic management, tracing, and visualization, reducing troubleshooting time by **30%** and improving operational efficiency.
 
-- **Centralized Monitoring**: Implemented centralized monitoring with the **EFK stack** and **Prometheus/Grafana** for logging, metrics collection, and visualization. Achieved **99.9% alert accuracy**, reducing **mean time to detection (MTTD)** by **40%**.
+- **Centralized Monitoring**: Implemented centralized monitoring with the **[EFK](https://www.elastic.co/elastic-stack) stack** and **[Prometheus](https://prometheus.io/)/[Grafana](https://grafana.com/)** for logging, metrics collection, and visualization. Achieved **99.9% alert accuracy**, reducing **mean time to detection (MTTD)** by **40%**.
 
-- **Kubernetes Operator**: Designed a custom CRD with **Kubebuilder** to monitor and process hourly CVE releases, automatically fetching new CVE records and integrating them with **Kafka** and **Pinecone** for indexing and real-time processing.
+- **Kubernetes Operator**: Designed a custom CRD with **[Kubebuilder](https://book.kubebuilder.io/)** to monitor and process hourly CVE releases, automatically fetching new CVE records and integrating them with **Kafka** and **Pinecone** for indexing and real-time processing.
 
-- **Security Posture Enhancement**: Improved security by automating **SSL/TLS certificate management** with **cert-manager** and **secret management** using **SOPS**, ensuring zero downtime during key rotations and improving security by **35%**.
+- **Security Posture Enhancement**: Improved security by automating **SSL/TLS certificate management** with **[cert-manager](https://cert-manager.io/)** and **secret management** using **[SOPS](https://github.com/getsops/sops)**, ensuring zero downtime during key rotations and improving security by **35%**.
 
-- **LLM Deployment**: The **Llama-3.1-8b** model is deployed using the **Ollama service** on an **AWS GPU instance g5.xlarge**, ensuring efficient and scalable LLM deployment and inference.
+- **LLM Deployment**: The **Llama-3.1-8b** model is deployed using the **[Ollama](https://artifacthub.io/packages/helm/ollama-helm/ollama/0.4.0) service** on an **AWS GPU instance g5.xlarge**, ensuring efficient and scalable LLM deployment and inference.
 
 #### ⚙ Project Demo  
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
@@ -41,8 +41,8 @@ A **CVE (Cybersecurity Vulnerabilities) Insights Platform** combining LLMs with 
 
 ### **[🌩️ Skynex](https://github.com/cloudapp6225)**  
 A cloud-native web application focused on performance and scalability, hosted on Google Cloud Platform:  
-- Built a robust **RESTful API Server** following **Twelve-Factor App** principles, implemented **CI/CD** with **GitHub Actions** on **Google Cloud**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
-- Developed an **event-driven system** with **Pub/Sub** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
+- Built a robust **RESTful API Server** following **[Twelve-Factor](https://12factor.net/) App** principles, implemented **CI/CD** with **GitHub Actions** on **[Google Cloud](https://cloud.google.com/)**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
+- Developed an **event-driven system** with **[Pub/Sub](https://cloud.google.com/pubsub/docs/overview)** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
 - Secured sensitive data with **CMEK encryption** for **Secrets**, **VM disks**, and **Cloud SQL**, and enforced **IAM roles** adhering to **Principle of Least Privilege (POLP)**, strengthening overall security.  
 
 ---
