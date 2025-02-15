@@ -39,7 +39,7 @@ A **[CVE (Cybersecurity Vulnerabilities)](https://cve.mitre.org/) Insights Platf
 [![LLaMaCVE Demo](https://img.youtube.com/vi/WlghN6UE7YA/0.jpg)](https://www.youtube.com/watch?v=WlghN6UE7YA)
 
 
-### **[🌩️ Skynex](https://github.com/cloudapp6225)**  
+### **[🌩️ skynetx.me](https://github.com/cloudapp6225)**  
 A cloud-native web application focused on performance and scalability, hosted on Google Cloud Platform:  
 - Built a robust **RESTful API Server** following **[Twelve-Factor](https://12factor.net/) App** principles, implemented **CI/CD** with **GitHub Actions** on **[Google Cloud](https://cloud.google.com/)**, utilizing **Cloud SQL** and **VPC peering** for secure database access.  
 - Developed an **event-driven system** with **[Pub/Sub](https://cloud.google.com/pubsub/docs/overview)** and **Cloud Run**, enhancing scalability to handle 10x traffic spikes while maintaining response times under 200ms.  
