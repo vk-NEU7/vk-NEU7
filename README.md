@@ -15,7 +15,7 @@ I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Re
 ## 🚀 Key Projects
 
 ### **[llaMaCVE.ai 🤖](https://github.com/cyse7125-su24-team10)**  
-A **[CVE (Cybersecurity Vulnerabilities)](https://cve.mitre.org/) Insights Platform** combining LLMs with modern DevOps practices to help users **secure devices**, **detect vulnerabilities early**, and **adapt to emerging cyber threats**. This platform offers high reliability and a user-friendly interface, powered by **real-time CVE processing** and **scalable infrastructure**. A **production-ready** solution to mitigate LLM data staleness and **hallucinations** by automating continuous vector database updates, ensuring accurate and up-to-date embeddings.
+A **[CVE (Cybersecurity Vulnerabilities)](https://cve.mitre.org/) Insights Platform** leveraging LLM's to help users secure their devices, detect vulnerabilities early, and adapt to emerging cyber threats. This platform offers high reliability and a user-friendly interface, powered by **real-time processing** and **scalable infrastructure**. A **production-ready** solution to mitigate LLM data staleness and **hallucinations** by automating continuous vector database updates, ensuring accurate and up-to-date embeddings.
 
 - **RAG Chatbot**: Designed and Developed a **Retrieval-Augmented Generation (RAG) Chatbot** using **Llama-3.1-8b(an Open Source LLM)**, **LangChain**, and **Python** to process **250K CVE JSON records**. Integrated the **[Pinecone](https://www.pinecone.io/) vector database** to store embeddings of CVE data, enabling fast, real-time queries and access to the latest CVE insights.
 
