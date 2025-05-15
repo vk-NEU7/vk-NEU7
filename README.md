@@ -110,7 +110,7 @@ A cloud-native web application focused on performance and scalability, hosted on
 ---
 ## 🥷 GitHub Stats
 
-<!--[![GitHub Streak](https://streak-stats.demolab.com/?user=vk-NEU7)](https://git.io/streak-stats) -->
+[![GitHub Streak](https://streak-stats.demolab.com/?user=vk-NEU7)](https://git.io/streak-stats)
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vk-NEU7&size_weight=0.5&count_weight=0.5)
