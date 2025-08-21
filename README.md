@@ -4,7 +4,7 @@
 
 ## ⚡ About Me  
 
-**Software/DevOps Engineer** with 3 years of professional experience, specializing in building **C#, Java applications**, designing multi-cloud solutions with **AWS & GCP**, and leveraging **Kubernetes orchestration** for scalable deployments.
+**Software** with 3 years of professional experience, specializing in building **C#, Java applications**, designing multi-cloud solutions with **AWS & GCP**, and leveraging **Kubernetes orchestration** for scalable deployments.
 
 
 I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Retrieval-Augmented Generation (RAG)** systems to tackle complex challenges. Constantly experimenting with new technologies, I actively use **Go** for innovative projects and an active member of the **[Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)**. I also spend time on platforms like **[Hacker News](https://news.ycombinator.com/)** to stay informed about the latest tech advancements.
