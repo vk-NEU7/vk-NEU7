@@ -4,8 +4,7 @@
 
 ## ⚡ About Me  
 
-**Software/DevOps Engineer** with 3 years of professional experience, specializing in building **Java applications**, designing multi-cloud solutions with **AWS & GCP**, and leveraging **Kubernetes orchestration** for scalable deployments. My expertise includes developing, testing, and deploying object-oriented and web-based applications using **Java/J2EE technologies**, with a strong foundation in **Servlets, JSP, JDBC, multi-threading, MVC**, and design patterns. I have experience with frameworks such as **Spring MVC, Spring Boot**, and **Hibernate**, and in creating dynamic front-end applications using **Angular** and **TypeScript**.
-
+**Software/DevOps Engineer** with 3 years of professional experience, specializing in building **C#, Java applications**, designing multi-cloud solutions with **AWS & GCP**, and leveraging **Kubernetes orchestration** for scalable deployments.
 
 
 I enjoy exploring **LLMs (Large Language Models)** by integrating them with **Retrieval-Augmented Generation (RAG)** systems to tackle complex challenges. Constantly experimenting with new technologies, I actively use **Go** for innovative projects and an active member of the **[Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)**. I also spend time on platforms like **[Hacker News](https://news.ycombinator.com/)** to stay informed about the latest tech advancements.
