@@ -50,21 +50,12 @@ A cloud-native web application focused on performance and scalability, hosted on
 
 ### **Graduate Teaching Assistant: Advanced Cloud Computing**  
 *Northeastern University, Boston, MA | Jan 2025 – May 2025*  
-- Mentored students on leveraging Kubernetes for container orchestration, enabling scalable, highly available system designs in a microservices architecture.
-- Guided students in implementing CI/CD pipelines with Jenkins, and GitHub Actions, automating software deployment processes.
-
 
 ### **Software Engineering Analyst**  
-*Accenture, Hyderabad, India | Sept 2021 – Aug 2023*  
-- Reduced API costs and prevented DDoS attacks by implementing IP rate-limiting for high-traffic microservices using **Spring Boot** and **Redis caching**.  
-- Optimized system performance, reducing response times by 80%, and enhanced CI/CD pipelines for 10+ microservices using **Jenkins**.  
-- Deployed microservices on **Amazon EKS**, leveraging Kafka for real-time data processing and centralized monitoring with **CloudWatch**.  
+*Accenture, Hyderabad, India | Sept 2021 – Aug 2023*    
 
 ### **Associate Software Engineer**  
 *Accenture, Hyderabad, India | Nov 2020 – Aug 2021*  
-- Built Angular-based order tracking features, reducing ticket resolution times by 50%.  
-- Automated deployment workflows and maintained 15+ microservices, ensuring high reliability and scalability.  
-
 ---
 
 ## 🔧 Skills & Technologies
